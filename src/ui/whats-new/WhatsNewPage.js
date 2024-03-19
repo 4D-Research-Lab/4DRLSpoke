@@ -139,6 +139,8 @@ export default class WhatsNewPage extends Component {
         <WhatsNewContainer>
           <WhatsNewContent>
             <WhatsNewTitle>What&apos;s New</WhatsNewTitle>
+              <h1>"19th March 2023"</h1>
+              <p>"Successfully launched 4DRL Spoke. Stay tuned for updates, custom code, et cetera."</p>
             <InfiniteScroll loadMore={this.onLoadMore} hasMore={this.state.hasMore} loader={loader}>
               {this.state.updates.map((update, i) => {
                 return (
